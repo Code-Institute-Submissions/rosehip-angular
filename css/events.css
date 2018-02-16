@@ -1,0 +1,10 @@
+.card-img-style {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	overflow: hidden;
+	filter: opacity(.7);
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 10px;
+}

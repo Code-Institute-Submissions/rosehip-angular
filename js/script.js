@@ -11,8 +11,11 @@ mainAngular.config(function ($routeProvider, $locationProvider) {
         .when('/contact',{
             templateUrl: './pages/contact.html'
         })
-        .when('/services',{
-            templateUrl: './pages/services.html'
+        .when('/events',{
+            templateUrl: './pages/events.html'
+        })
+        .when('/portfolio',{
+            templateUrl: './pages/portfolio.html'
         })
         .otherwise({
             redirectTo: '/home'

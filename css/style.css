@@ -1,5 +1,5 @@
 /*Element defaults*/
-body {
+html, body {
 	padding-top: 0px;
 	background-color: #000;
 	color: #fff;
@@ -11,6 +11,9 @@ body {
 .profile-pic {
 	background: linear-gradient(to right,gray,black);
 }
+.black-bg {
+	background-color: black;
+}
 
 /*Colors*/
 .grayscale-me{
@@ -18,7 +21,10 @@ body {
 	filter:grayscale(1);
 }
 .pink {
-	color:#ffb6c1;
+	color: #ffb6c1;
+}
+.white {
+	color: white;
 }
 
 /*Borders, margins, and padding*/
@@ -56,6 +62,12 @@ body {
 }
 .navbar-inverse .navbar-nav .nav-link:hover {
 	color: white;
+}
+.dropdown-menu {
+	background-color: black;
+}
+.dropdown-item {
+	color: #ffb6c1;
 }
 
 /*Custom Navbar toggler color and border*/
