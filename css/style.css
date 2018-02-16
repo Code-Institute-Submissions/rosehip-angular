@@ -1,0 +1,269 @@
+body {
+	padding-top: 0px;
+	background-color: #000;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	/*font-family: 'Poiret One', cursive;*/
+	width: 100%;
+}
+
+.card {
+	border: 0;
+}
+.no-padding {
+	padding: 0;
+}
+.quote-text {
+    color: white;
+    font-family: 'Special Elite', cursive;
+    max-width: 700px;
+    /*font-weight: bold;*/
+}
+.quote-sig {
+    color: white;
+    font-family: 'Homemade Apple', cursive;
+    max-width: 700px;
+}
+.navbar-inverse .navbar-nav .nav-link {
+	color: #ffb6c1;
+}
+.navbar-inverse .navbar-nav .nav-link:hover {
+	color: white;
+}
+
+.btn-primary {
+	background-color: #ffb6c1;
+	color: black;
+	border: #ffb6c1;
+	font-family: 'Raleway', sans-serif;
+}
+
+/*Custom toggler color and border*/
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255,182,193);
+    border: none;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,182,193, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.profile-pic-div {
+	background: linear-gradient(to right,grey,black);
+}
+
+.underline-heading:hover{
+	text-decoration: underline;
+	text-decoration-color: #ffb6c1; 
+}
+
+.grayscale-me{
+	-webkit-filter: grayscale(1);
+	filter:grayscale(1);
+}
+
+#home{
+	padding-top: 60px;
+}
+#about{
+}
+.homeimage {
+	-webkit-filter: opacity(.55);
+	filter: opacity(.55);
+}
+
+/* font styling */
+.pink {
+	color:#ffb6c1;
+}
+
+@media screen and (max-width: 499.99px){
+	.homeimage {
+		content:url("../img/KJWedFL-201-1920-sm.jpg");
+		max-height: 520px;
+		object-fit: cover;
+	}
+}
+/*Modify SECTION cards to display a different part of the image when screen is smaller and center text*/
+@media screen and (max-width: 575.99px){
+	/*.landscape-mode {
+		max-height: 200px;
+		object-fit: cover;
+		object-position: center;
+	}*/
+	/*.card-img-overlay > .card-title {
+		position: relative;
+		top: 47%;
+	}
+	h1, h2, h3, h4, p {
+		text-align: center;
+	}*/
+	#about {
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	.profile-pic-div {
+		border: 1px solid white;
+		margin: 49px;
+	}
+}
+
+/*Modify toggler and brand to align when collapsed*/
+@media screen and (max-width: 767.99px){
+	.navbar-brand > img {
+		width: 125px;
+	}
+	.navbar-toggler {
+		padding: 20px;
+	}
+	.quote-text {
+		max-width: 450px;
+	}
+
+}
+
+/*Modify profile picture for lower resolution*/
+@media screen and (max-width: 914.99px){
+}
+
+/*responsive font sizes */
+
+/* Resetting from the mobile up!
+// 
+// Dropping the root* element font size to 14px is something
+// I do on almost all projects, a 16px font size on mobiles
+// is not normally needed. --> Only my opinion of course!
+//
+// At mobile size I used the scale "Major Second" from 
+// type-cale.com to set out the heading sizes as well as the
+// "Major Third" scale for the .display-* classes however my
+// technique was to begin the scale from the h1's front size.
+// To do this simply do the h1 font size * scale size. So in 
+// in this example it was 1.602 * 1.250 = 2.0025 I went with 
+// 2em to keep it simple.
+//
+//------------------------------------------------------------*/
+html,
+body {
+	font-size: 14px !important;
+}
+h1 {
+	font-size: 1.602em;
+}
+h2 {
+	font-size: 1.424em;
+}
+h3 {
+	font-size: 1.266em;
+}
+h4 {
+	font-size: 1.125em;
+}
+h5 {
+	font-size: 0.889em;
+}
+h6 {
+	font-size: 0.79em;
+}
+.display-1 {
+	font-size: 3.906em;
+}
+.display-2 {
+	font-size: 3.125em;
+}
+.display-3 {
+	font-size: 2.5em;
+}
+.display-4 {
+	font-size: 2em;
+}
+
+/* Medium devices (tablets, 48em and up)
+// 
+// At this point you have overridden Bootstraps rem's and are
+// into module based font sizes should you require it. 
+//
+// I took a while over this change because I felt that there
+// is no reason why I cant use a modified scale on another 
+// device size. So I did, the headings have now taken on
+// "Perfect Fourth" and the dislpay-* has been put to the
+// Bootstrap defaults.
+//
+//------------------------------------------------------------*/
+@media (min-width: 48em) {
+	h1 {
+	  font-size: 2.441em;
+	}
+	h2 {
+		font-size: 1.953em;
+	}
+	h3 {
+		font-size: 1.563em;
+	}
+	h4 {
+		font-size: 1.25em;
+	}
+	.display-1 {
+		font-size: 6em;
+	}
+	.display-2 {
+		font-size: 5.5em;
+	}
+	.display-3 {
+		font-size: 4.5em;
+	}
+	.display-4 {
+		font-size: 3.5em;
+	}
+}
+
+/* Large devices (desktops, 62em and up) */
+@media (min-width: 62em) {
+	html,
+	body {
+		font-size: 16px !important;
+	}
+}
+
+/* Extra large devices (large desktops, 75em and up) */
+@media (min-width: 75em) {
+	html,
+	body {
+		font-size: 18px !important;
+	}
+}
+
+/*************************************/
+
+/****Animations for Dynamic Body******/
+/*#dynamic-body.ng-enter{
+    transform: translateX(-500px);
+    opacity: 0;
+ 
+    -webkit-transition: all 0.5s cubic-bezier(1,.01,0,.99);
+    -moz-transition: all 0.5s cubic-bezier(1,.01,0,.99);
+    -ms-transition: all 0.5s cubic-bezier(1,.01,0,.99);
+    -o-transition: all 0.5s cubic-bezier(1,.01,0,.99);
+    transition: all 0.5s cubic-bezier(1,.01,0,.99);
+}
+ 
+#dynamic-body.ng-enter-active{
+    transform: translateX(0px);
+    opacity: 1;
+}
+ 
+#dynamic-body.ng-leave{
+    transform: translateX(0);
+    opacity: 1;
+ 
+    -webkit-transition: all 0.5s cubic-bezier(1,.01,0,.99);
+    -moz-transition: all 0.5s cubic-bezier(1,.01,0,.99);
+    -ms-transition: all 0.5s cubic-bezier(1,.01,0,.99);
+    -o-transition: all 0.5s cubic-bezier(1,.01,0,.99);
+    transition: all 0.5s cubic-bezier(1,.01,0,.99);
+}
+ 
+#dynamic-body.ng-leave-active{
+    transform: translateX(500px);
+    opacity: 0;
+}*/
+
