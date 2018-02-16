@@ -1,18 +1,39 @@
+/*Element defaults*/
 body {
 	padding-top: 0px;
 	background-color: #000;
 	color: #fff;
 	font-family: 'Raleway', sans-serif;
-	/*font-family: 'Poiret One', cursive;*/
 	width: 100%;
 }
 
-.card {
+/*Backgrounds*/
+.profile-pic-gray-gradient-bg {
+	background: linear-gradient(to right,gray,black);
+}
+
+/*Colors*/
+.grayscale-me{
+	-webkit-filter: grayscale(1);
+	filter:grayscale(1);
+}
+.pink {
+	color:#ffb6c1;
+}
+
+/*Borders, margins, and padding*/
+.no-border {
 	border: 0;
 }
 .no-padding {
 	padding: 0;
 }
+/*REVISIT!!!!!*/
+.navbar-padding{
+	padding-top: 102px;
+}
+
+/*Typography changes*/
 .quote-text {
     color: white;
     font-family: 'Special Elite', cursive;
@@ -24,6 +45,12 @@ body {
     font-family: 'Homemade Apple', cursive;
     max-width: 700px;
 }
+.underline-heading:hover{
+	text-decoration: underline;
+	text-decoration-color: #ffb6c1; 
+}
+
+/*Navbar*/
 .navbar-inverse .navbar-nav .nav-link {
 	color: #ffb6c1;
 }
@@ -31,14 +58,7 @@ body {
 	color: white;
 }
 
-.btn-primary {
-	background-color: #ffb6c1;
-	color: black;
-	border: #ffb6c1;
-	font-family: 'Raleway', sans-serif;
-}
-
-/*Custom toggler color and border*/
+/*Custom Navbar toggler color and border*/
 .custom-toggler.navbar-toggler {
     border-color: rgb(255,182,193);
     border: none;
@@ -47,19 +67,15 @@ body {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,182,193, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-.profile-pic-div {
-	background: linear-gradient(to right,grey,black);
+/*Buttons*/
+.btn-primary {
+	background-color: #ffb6c1;
+	color: black;
+	border: #ffb6c1;
+	font-family: 'Raleway', sans-serif;
 }
 
-.underline-heading:hover{
-	text-decoration: underline;
-	text-decoration-color: #ffb6c1; 
-}
 
-.grayscale-me{
-	-webkit-filter: grayscale(1);
-	filter:grayscale(1);
-}
 
 #home{
 	padding-top: 60px;
@@ -71,11 +87,8 @@ body {
 	filter: opacity(.55);
 }
 
-/* font styling */
-.pink {
-	color:#ffb6c1;
-}
 
+/*responsive screen*/
 @media screen and (max-width: 499.99px){
 	.homeimage {
 		content:url("../img/KJWedFL-201-1920-sm.jpg");
@@ -83,20 +96,7 @@ body {
 		object-fit: cover;
 	}
 }
-/*Modify SECTION cards to display a different part of the image when screen is smaller and center text*/
 @media screen and (max-width: 575.99px){
-	/*.landscape-mode {
-		max-height: 200px;
-		object-fit: cover;
-		object-position: center;
-	}*/
-	/*.card-img-overlay > .card-title {
-		position: relative;
-		top: 47%;
-	}
-	h1, h2, h3, h4, p {
-		text-align: center;
-	}*/
 	#about {
 		text-align: center;
 		padding-bottom: 20px;
@@ -106,8 +106,6 @@ body {
 		margin: 49px;
 	}
 }
-
-/*Modify toggler and brand to align when collapsed*/
 @media screen and (max-width: 767.99px){
 	.navbar-brand > img {
 		width: 125px;
@@ -120,13 +118,10 @@ body {
 	}
 
 }
-
-/*Modify profile picture for lower resolution*/
 @media screen and (max-width: 914.99px){
 }
 
-/*responsive font sizes */
-
+/*responsive font sizes*/
 /* Resetting from the mobile up!
 // 
 // Dropping the root* element font size to 14px is something
