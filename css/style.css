@@ -8,7 +8,7 @@ body {
 }
 
 /*Backgrounds*/
-.profile-pic-gray-gradient-bg {
+.profile-pic {
 	background: linear-gradient(to right,gray,black);
 }
 
@@ -76,7 +76,7 @@ body {
 }
 
 
-
+/*Id Specific*/
 #home{
 	padding-top: 60px;
 }
@@ -101,7 +101,7 @@ body {
 		text-align: center;
 		padding-bottom: 20px;
 	}
-	.profile-pic-div {
+	.profile-pic {
 		border: 1px solid white;
 		margin: 49px;
 	}
