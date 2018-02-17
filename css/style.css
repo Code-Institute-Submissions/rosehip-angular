@@ -55,6 +55,9 @@ html, body {
 	text-decoration: underline;
 	text-decoration-color: #ffb6c1; 
 }
+.gravitas-one {
+	font-family: 'Gravitas One', cursive;	
+}
 
 /*Navbar*/
 .navbar-inverse .navbar-nav .nav-link {
