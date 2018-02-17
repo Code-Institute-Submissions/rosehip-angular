@@ -61,7 +61,7 @@ h6 {
 // Bootstrap defaults.
 //
 //------------------------------------------------------------*/
-@media (min-width: 48em) {
+/*@media (min-width: 48em) {
 	h1 {
 	  font-size: 2.441em;
 	}
@@ -86,7 +86,7 @@ h6 {
 	.display-4 {
 		font-size: 3.5em;
 	}
-}
+}*/
 
 /* Large devices (desktops, 62em and up) */
 @media (min-width: 62em) {
