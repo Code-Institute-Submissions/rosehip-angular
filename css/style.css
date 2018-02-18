@@ -9,6 +9,9 @@ html, body {
 
 /*Backgrounds*/
 .profile-pic {
+	background: -webkit-gradient(linear,left top, right top,from(gray),to(black));
+	background: -webkit-linear-gradient(left,gray,black);
+	background: -o-linear-gradient(left,gray,black);
 	background: linear-gradient(to right,gray,black);
 }
 .black-bg {
@@ -53,9 +56,9 @@ html, body {
 }
 .underline-heading:hover{
 	text-decoration: underline;
-	text-decoration-color: #ffb6c1; 
-}
-.gravitas-one {
+	-webkit-text-decoration-color: #ffb6c1;
+	        text-decoration-color: #ffb6c1; 
+}.gravitas-one {
 	font-family: 'Gravitas One', cursive;	
 }
 
@@ -90,6 +93,17 @@ html, body {
 	font-family: 'Raleway', sans-serif;
 }
 
+/*Homepage section button/pics*/
+.img-button {
+	-o-object-fit: cover;
+	   object-fit: cover;
+	-webkit-filter:opacity(.6);
+	        filter:opacity(.6);
+	border-radius: 10px;
+	overflow: hidden;
+	width: 100%;
+	height:100%;
+}
 
 /*Id Specific*/
 #home{
@@ -108,7 +122,8 @@ html, body {
 	.homeimage {
 		content:url("../img/KJWedFL-201-1920-sm.jpg");
 		height: 90vh;
-		object-fit: cover;
+		-o-object-fit: cover;
+		   object-fit: cover;
 	}
 }
 @media screen and (max-width: 575.99px){
