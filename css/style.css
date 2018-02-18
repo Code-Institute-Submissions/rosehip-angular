@@ -139,6 +139,10 @@ html, body {
         box-shadow: 2px 2px 5px #999;
 		margin: 45px;
 	}
+	.icon-margins {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
 }
 @media screen and (max-width: 767.99px){
 	.navbar-brand > img {
