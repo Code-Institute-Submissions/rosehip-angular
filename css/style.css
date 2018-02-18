@@ -104,10 +104,10 @@ html, body {
 
 
 /*responsive screen*/
-@media screen and (max-width: 499.99px){
+@media screen and (max-width: 479.99px){
 	.homeimage {
 		content:url("../img/KJWedFL-201-1920-sm.jpg");
-		max-height: 520px;
+		height: 90vh;
 		object-fit: cover;
 	}
 }
@@ -117,8 +117,12 @@ html, body {
 		padding-bottom: 20px;
 	}
 	.profile-pic {
-		border: 1px solid white;
-		margin: 49px;
+		/*border: 1px solid white;*/
+		border: solid 4px #CCC;
+		-moz-box-shadow: 2px 2px 5px #999;
+    	-webkit-box-shadow: 2px 2px 5px #999;
+        box-shadow: 2px 2px 5px #999;
+		margin: 45px;
 	}
 }
 @media screen and (max-width: 767.99px){
