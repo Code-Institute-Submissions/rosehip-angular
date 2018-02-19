@@ -4,15 +4,20 @@
 .contact-bg{
 	background: url("../img/bridge.jpg") no-repeat center center fixed;
 	background-size: cover;
+	height: 100%;
 	object-fit: cover;
-	height: 100vh;
 }
 
 @media screen and (max-width: 479.99px){
 	.contact-bg {
-		/*content:url("../img/KJWedFL-201-1920-sm.jpg");*/
 		height: 95vh;
 		-o-object-fit: cover;
 		   object-fit: cover;
 	}
 }
+
+/*@media screen and (max-width: 767.99px){
+	.contact-bg{
+		padding-top: 0px;
+	}
+}*/
