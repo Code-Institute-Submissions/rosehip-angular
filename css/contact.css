@@ -1,0 +1,8 @@
+@media screen and (max-width: 479.99px){
+	.contact-bg {
+		/*content:url("../img/KJWedFL-201-1920-sm.jpg");*/
+		height: 95vh;
+		-o-object-fit: cover;
+		   object-fit: cover;
+	}
+}
