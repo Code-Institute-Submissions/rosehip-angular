@@ -46,7 +46,6 @@ html, body {
     color: white;
     font-family: 'Special Elite', cursive;
     max-width: 700px;
-    /*font-weight: bold;*/
 }
 .quote-sig {
     color: white;
@@ -130,14 +129,6 @@ html, body {
 		text-align: center;
 		padding-bottom: 20px;
 	}
-	.profile-pic {
-		/*border: 1px solid white;*/
-		border: solid 4px #CCC;
-		-moz-box-shadow: 2px 2px 5px #999;
-    	-webkit-box-shadow: 2px 2px 5px #999;
-        box-shadow: 2px 2px 5px #999;
-		margin: 45px;
-	}
 }
 @media screen and (max-width: 767.99px){
 	.navbar-brand > img {
@@ -148,6 +139,17 @@ html, body {
 	}
 	.quote-text {
 		max-width: 450px;
+	}
+	.profile-pic {
+		/*border: 1px solid white;*/
+		border: solid 4px #CCC;
+		-moz-box-shadow: 2px 2px 5px #999;
+    	-webkit-box-shadow: 2px 2px 5px #999;
+        box-shadow: 2px 2px 5px #999;
+		margin: 45px;
+	}
+	#dynamic-body {
+		padding-top: 50px;
 	}
 	.icon-margins {
 		margin-left: 10px;
