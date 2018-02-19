@@ -1,3 +1,13 @@
+#dynamic-body {
+	height: 100%;
+}
+.contact-bg{
+	background: url("../img/bridge.jpg") no-repeat center center fixed;
+	background-size: cover;
+	object-fit: cover;
+	height: 100vh;
+}
+
 @media screen and (max-width: 479.99px){
 	.contact-bg {
 		/*content:url("../img/KJWedFL-201-1920-sm.jpg");*/
