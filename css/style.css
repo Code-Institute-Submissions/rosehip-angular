@@ -61,12 +61,13 @@ html, body {
 }
 
 /*Navbar*/
-.navbar-inverse .navbar-nav .nav-link {
+.nav-link {
 	color: #ffb6c1;
 }
-.navbar-inverse .navbar-nav .nav-link:hover {
+.nav-link:hover {
 	color: white;
 }
+
 .dropdown-menu {
 	background-color: black;
 }
@@ -81,6 +82,9 @@ html, body {
 }
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,182,193, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar-brand-img{
+	width: 200px;
 }
 
 /*Buttons*/
@@ -105,7 +109,7 @@ html, body {
 
 /*Id Specific*/
 #dynamic-body{
-	padding-top: 100px;
+	padding-top: 120px;
 }
 #about{
 }
@@ -131,11 +135,18 @@ html, body {
 	}
 }
 @media screen and (max-width: 767.99px){
-	.navbar-brand > img {
+	.navbar-brand-img {
 		width: 125px;
 	}
+	/*.navbar-brand {
+		position: absolute;
+		width: 100%;
+		left: 0;
+		text-align: center;
+		margin: 0 auto;
+	}*/
 	.navbar-toggler {
-		padding: 20px;
+		padding: 10px;
 	}
 	.quote-text {
 		max-width: 450px;
@@ -149,7 +160,7 @@ html, body {
 		margin: 45px;
 	}
 	#dynamic-body {
-		padding-top: 70px;
+		padding-top: 85px;
 	}
 	.icon-margins {
 		margin-left: 10px;
