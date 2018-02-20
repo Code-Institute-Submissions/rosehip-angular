@@ -155,6 +155,9 @@ html, body {
 		margin-left: 10px;
 		margin-right: 10px;
 	}
+	a {
+		font-size: 1.5em;
+	}
 }
 @media screen and (max-width: 914.99px){
 }
