@@ -11,28 +11,31 @@
 	          		<img class="card-img img-fluid contact-bg" src="./img/bridge.jpg">
 	        	</div-->
 	        	<!--div class="card-img-overlay d-flex h-100 align-items-center justify-content-center"-->
-	        	<form class="text-center">
-					<div class="form-group row">
+	        	<form class="needs-validation text-center" novalidate="">
+					<div class="form-group form-row">
 				    	<div class="col">
 				    		<input type="text" class="form-control" id="inputName" placeholder="Name" required>
+				    		<div class="invalid-feedback">Please enter your name.</div>
 				    	</div>
 				    </div>	
-					<div class="form-group row">
+					<div class="form-group form-row">
 					    <div class="col">
 					      	<input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
+					      	<div class="invalid-feedback">Please enter your email.</div>
 					    </div>
 					</div>
-					<div class="form-group row">
+					<div class="form-group form-row">
 					    <div class="col">
 					      	<input type="text" class="form-control" id="inputPhoneNumber" placeholder="Phone Number">
 					    </div>
 					</div>
-					<div class="form-group row">	
+					<div class="form-group form-row">	
 				    	<div class="col">
 					    	<textarea class="form-control" rows="4" id="inputMessage" placeholder="Message" required></textarea>
+					    	<div class="invalid-feedback">Please enter a message.</div>
 					    </div>
 				    </div>
-					<div class="form-group row">
+					<div class="form-group form-row">
 					    <div class="col">
 					    	<button type="submit" class="btn btn-primary">Submit</button>
 					    </div>

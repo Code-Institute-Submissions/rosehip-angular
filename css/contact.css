@@ -1,6 +1,9 @@
 #dynamic-body {
 	height: 100%;
 }
+/*input:invalid {
+	border: 3px solid red;
+}*/
 .contact-bg{
 	background: url("../img/bridge.jpg") no-repeat center center fixed;
 	background-size: cover;

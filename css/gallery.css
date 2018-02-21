@@ -1,0 +1,122 @@
+/*body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  background-color: black;
+}*/
+
+* {
+  box-sizing: border-box;
+}
+
+/* The Modal (background) */
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  background: rgba(0,0,0,.85);
+  padding-top: 125px;
+}
+
+/* Modal Content */
+.lightbox-content {
+  position: relative;
+  background-color: black;
+  margin: auto;
+  padding: 0;
+  width: 60vw;
+  max-width: 80vw;
+  top:40%;
+  transform: translateY(-50%);
+}
+
+/* The Close Button */
+.close-button {
+  color: white;
+  position: absolute;
+  top: 20px;
+  right: 16px;
+  font-size: 60px;
+}
+
+.close-button:hover,
+.close-button:focus {
+  color: #ffb6c1;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+  background-color: black;
+}
+
+.cursor {
+  cursor: pointer
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50vh;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(255, 182, 193, 0.8);
+}
+
+.caption-container {
+  /*text-align: left;*/
+  background-color: black;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  color: white;
+}
+
+img.hover-shadow {
+  transition: 0.3s
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.1)
+}
+
+.white-border{
+  border: 5px solid white;
+  border-radius: 2px;
+}
