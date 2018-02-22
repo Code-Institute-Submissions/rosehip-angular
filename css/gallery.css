@@ -24,10 +24,10 @@ body {
 /* Modal Content */
 .lightbox-content {
   position: relative;
-  background: rgba(0,0,0,.85);
+  background: rgba(0,0,0,0);
   margin: auto;
   padding: 0;
-  max-height: 80vh;
+  max-height: 85vh;
   max-width: 80vw;
   /*center box*/
   top:50%;
@@ -52,11 +52,10 @@ body {
 
 .mySlides {
   display: none;
-  background-color: black;
 }
 
 .mySlides img {
-  max-height: 75vh;
+  max-height: 85vh;
 }
 
 .cursor {
@@ -88,17 +87,32 @@ body {
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover,
+/*.prev:hover,
 .next:hover {
   background-color: rgba(255, 182, 193, 0.8);
-}
+}*/
 
 .caption-container {
   /*text-align: left;*/
-  background-color: black;
-  padding-top: 10px;
-  padding-bottom: 5px;
-  color: white;
+  background-color: red;
+  /*padding-top: 10px;*/
+  /*padding-bottom: 5px;*/
+  /*color: white*/;
+  /*bottom: 80vh;*/
+  position: relative;
+  bottom: 40px;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
 }
 
 img.hover-shadow {
