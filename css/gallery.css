@@ -1,8 +1,8 @@
-/*body {
+body {
   font-family: 'Raleway', sans-serif;
   margin: 0;
   background-color: black;
-}*/
+}
 
 * {
   box-sizing: border-box;
@@ -19,18 +19,18 @@
   height: 100vh;
   overflow: auto;
   background: rgba(0,0,0,.85);
-  padding-top: 125px;
 }
 
 /* Modal Content */
 .lightbox-content {
   position: relative;
-  background-color: black;
+  background: rgba(0,0,0,.85);
   margin: auto;
   padding: 0;
-  width: 60vw;
+  max-height: 80vh;
   max-width: 80vw;
-  top:40%;
+  /*center box*/
+  top:50%;
   transform: translateY(-50%);
 }
 
@@ -38,8 +38,8 @@
 .close-button {
   color: white;
   position: absolute;
-  top: 20px;
-  right: 16px;
+  top: -20px;
+  right: 20px;
   font-size: 60px;
 }
 
@@ -53,6 +53,10 @@
 .mySlides {
   display: none;
   background-color: black;
+}
+
+.mySlides img {
+  max-height: 75vh;
 }
 
 .cursor {

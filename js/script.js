@@ -20,6 +20,9 @@ mainAngular.config(function ($routeProvider, $locationProvider) {
         .when('/kat-james',{
             templateUrl: './pages/gallery/kat-james.html'
         })
+        .when('/jess-marc',{
+            templateUrl: './pages/gallery/jess-marc.html'
+        })
         .otherwise({
             redirectTo: '/home'
         });

@@ -1,0 +1,74 @@
+<link rel="stylesheet" type="text/css" href="./css/gallery.css">
+
+<div id="jess-marc">
+  <div class="container-fluid align-items-center">
+    <div class="row justify-content-center">
+      <h1 class="quote-text text-center display-3" style="color: white;">Jessica + Marc</h1>
+    </div>
+  </div>
+  <div class="gallery container-fluid align-items-center" style="margin-top: 20px;">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-6 col-sm-4 col-md-3">
+        <img src="./img/jess-marc/jm-1.jpg" onclick="openModal();currentSlide(1)" class="img-fluid">
+      </div>
+      <div class="col-6 col-sm-4 col-md-3">
+        <img src="./img/jess-marc/jm-2.jpg" onclick="openModal();currentSlide(2)" class="img-fluid">
+      </div>
+      <div class="col-6 col-sm-4 col-md-3">  
+        <img src="./img/jess-marc/jm-3.jpg" onclick="openModal();currentSlide(3)" class="img-fluid">
+      </div>
+      <div class="col-6 col-sm-4 col-md-3"> 
+        <img src="./img/jess-marc/jm-4.jpg" onclick="openModal();currentSlide(4)" class="img-fluid">
+      </div>
+      <div class="col-6 col-sm-4 col-md-3"> 
+        <img src="./img/jess-marc/jm-5.jpg" onclick="openModal();currentSlide(5)" class="img-fluid">
+      </div>
+      <div class="col-6 col-sm-4 col-md-3"> 
+        <img src="./img/jess-marc/jm-6.jpg" onclick="openModal();currentSlide(6)" class="img-fluid">
+      </div>
+      <div class="col-6 col-sm-4 col-md-3"> 
+        <img src="./img/jess-marc/jm-7.jpg" onclick="openModal();currentSlide(7)" class="img-fluid">
+      </div>
+      <div class="col-6 col-sm-4 col-md-3"> 
+        <img src="./img/jess-marc/jm-8.jpg" onclick="openModal();currentSlide(8)" class="img-fluid">
+      </div>
+    </div>
+  </div>
+
+  <div id="myLightbox" class="lightbox justify-content-center">
+    <span class="close-button cursor" onclick="closeModal()">&times;</span>
+    <div class="lightbox-content justify-content-center align-items-center">
+      <div class="mySlides text-center">
+        <img class="img-fluid white-border" src="./img/jess-marc/jm-1.jpg" alt="All the girls are here">
+      </div>
+      <div class="mySlides text-center">
+        <img class="img-fluid white-border" src="./img/jess-marc/jm-2.jpg" alt="That DRESS!">
+      </div>
+      <div class="mySlides text-center">
+        <img class="img-fluid white-border" src="./img/jess-marc/jm-3.jpg" alt="What an entrance!">
+      </div>
+      <div class="mySlides text-center">
+        <img class="img-fluid white-border" src="./img/jess-marc/jm-4.jpg" alt="Looking GOOOOD!">
+      </div>
+      <div class="mySlides text-center">
+        <img class="img-fluid white-border" src="./img/jess-marc/jm-5.jpg" alt="Entourage: Season 4">
+      </div>
+      <div class="mySlides text-center">
+        <img class="img-fluid white-border" src="./img/jess-marc/jm-6.jpg" alt="Just takin a walk.">
+      </div>
+      <div class="mySlides text-center">
+        <img class="img-fluid white-border" src="./img/jess-marc/jm-7.jpg" alt="Sunset dreams">
+      </div>
+      <div class="mySlides text-center">
+        <img class="img-fluid white-border" src="./img/jess-marc/jm-8.jpg" alt="Sealed with a kiss.">
+      </div>
+      <div class="caption-container">
+          <p id="imgCaption" style="float:left;"></p>
+          <p id="imgCount" style="float:right;"></p>
+      </div>
+    </div>
+    <div style="clear:both;"></div>
+    <a class="prev" style="color:white;" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" style="color:white;" onclick="plusSlides(1)">&#10095;</a> 
+  </div>
+</div>
