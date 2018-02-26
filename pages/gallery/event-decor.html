@@ -1,0 +1,48 @@
+<link rel="stylesheet" type="text/css" href="./css/gallery.css">
+
+<div id="kat-james">
+  <div class="container-fluid align-items-center">
+    <div class="row justify-content-center">
+      <h1 class="quote-text text-center display-3" style="color: white;">Event Decor</h1>
+    </div>
+  </div>
+  <div class="gallery container-fluid align-items-center" style="margin-top: 20px;">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-6 col-sm-4 col-md-3">
+        <img src="./img/event-decor/ed-1.jpg" onclick="openModal();currentSlide(1)" class="img-fluid">
+      </div>
+      <div class="col-6 col-sm-4 col-md-3">
+        <img src="./img/event-decor/ed-2.jpg" onclick="openModal();currentSlide(2)" class="img-fluid">
+      </div>
+      <div class="col-6 col-sm-4 col-md-3">  
+        <img src="./img/event-decor/ed-3.jpg" onclick="openModal();currentSlide(3)" class="img-fluid">
+      </div>
+      <div class="col-6 col-sm-4 col-md-3"> 
+        <img src="./img/event-decor/ed-4.jpg" onclick="openModal();currentSlide(4)" class="img-fluid">
+      </div>
+    </div>
+  </div>
+
+  <div id="myLightbox" class="lightbox justify-content-center">
+    <span class="close-button cursor" onclick="closeModal()">&times;</span>
+    <div class="lightbox-content justify-content-center align-items-center">
+      <div class="mySlides text-center">
+        <img class="img-fluid" src="./img/event-decor/ed-1.jpg" alt="..."> 
+      </div>
+      <div class="mySlides text-center">
+        <img class="img-fluid" src="./img/event-decor/ed-2.jpg" alt="...">
+      </div>
+      <div class="mySlides text-center">
+        <img class="img-fluid" src="./img/event-decor/ed-3.jpg" alt="...">
+      </div>
+      <div class="mySlides text-center">
+        <img class="img-fluid" src="./img/event-decor/ed-4.jpg" alt="...">
+      </div>
+      <!--div id="imgCaption" class="text-center" style="padding-top: 5px;"></div-->
+      <!--div id="imgCount" class="caption-container d-inline"></div-->
+    </div>
+    <!--div style="clear:both;"></div-->
+    <a class="prev" style="color:#ffb6c1;" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" style="color:#ffb6c1;" onclick="plusSlides(1)">&#10095;</a> 
+  </div>
+</div>

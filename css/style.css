@@ -1,6 +1,7 @@
 /*Element defaults*/
 html, body {
 	background-color: #000;
+	/*background: url("../img/contact-wallpaper.jpg") no-repeat center center fixed;*/
 	color: #fff;
 	font-family: 'Raleway', sans-serif;
 	width: 100%;
@@ -112,7 +113,7 @@ html, body {
 
 /*Id Specific*/
 #dynamic-body{
-	padding-top: 120px;
+	padding-top: 118px;
 }
 #about{
 }
@@ -170,7 +171,7 @@ html, body {
 		margin: 20px 90px;
 	}
 	#dynamic-body {
-		padding-top: 85px;
+		padding-top: 80px;
 	}
 	.icon-margins {
 		margin-left: 10px;

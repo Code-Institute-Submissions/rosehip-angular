@@ -22,6 +22,9 @@ mainAngular.config(function ($routeProvider, $locationProvider) {
         .when('/kat-james',{
             templateUrl: './pages/gallery/kat-james.html'
         })
+        .when('/event-decor',{
+            templateUrl: './pages/gallery/event-decor.html'
+        })
         .when('/jess-marc',{
             templateUrl: './pages/gallery/jess-marc.html'
         })
