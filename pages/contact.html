@@ -39,7 +39,7 @@
 				    	<div class="col-9">
 					    	<textarea class="form-control" name="message" ng-model="contact.message" rows="4" id="inputMessage" placeholder="Message" required></textarea>
 					      	<span ng-show="myForm.message.$touched && myForm.message.$invalid">
-			    				<small style="color: red; display: block; text-align: center;">What's on your mind?</small>
+			    				<small style="color: red; display: block; text-align: center;">Don't leave without saying "Hi!"</small>
 			    			</span>
 					    </div>
 					    <div class="col">
@@ -48,7 +48,7 @@
 				    </div>
 					<div class="form-group form-row">
 					    <div class="col">
-					    	<button type="submit" class="btn btn-primary" ng-disabled="myForm.$invalid" disabled="disabled">Submit</button>
+					    	<button type="submit" class="btn btn-primary" ng-disabled="myForm.$invalid">Submit</button>
 					    	<span ng-show="myForm.$submitted">
 			    				<medium style="color: green; display: block; text-align: center;">Thanks! I'll get back to you soon.</medium>
 			    			</span>

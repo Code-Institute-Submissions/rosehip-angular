@@ -121,7 +121,6 @@ html, body {
 	filter: opacity(.55);
 }
 
-
 /*responsive screen*/
 @media screen and (max-width: 479.99px){
 	.homeimage {
@@ -142,6 +141,9 @@ html, body {
 	.img-button {
 		height: 150px;
 	}
+	/*.profile-pic {
+		margin: 60px;
+	}*/
 }
 @media screen and (max-width: 767.99px){
 	.navbar-brand-img {
@@ -161,12 +163,11 @@ html, body {
 		max-width: 450px;
 	}
 	.profile-pic {
-		/*border: 1px solid white;*/
 		border: solid 4px #CCC;
 		-moz-box-shadow: 2px 2px 5px #999;
     	-webkit-box-shadow: 2px 2px 5px #999;
         box-shadow: 2px 2px 5px #999;
-		margin: 60px;
+		margin: 20px 90px;
 	}
 	#dynamic-body {
 		padding-top: 85px;
