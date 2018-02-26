@@ -130,14 +130,17 @@ html, body {
 		-o-object-fit: cover;
 		   object-fit: cover;
 	}
-	.img-button {
+	/*.img-button {
 		height: 150px;
-	}
+	}*/
 }
 @media screen and (max-width: 575.99px){
 	#about {
 		text-align: center;
 		padding-bottom: 20px;
+	}
+	.img-button {
+		height: 150px;
 	}
 }
 @media screen and (max-width: 767.99px){

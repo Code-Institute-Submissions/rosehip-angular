@@ -1,6 +1,8 @@
-var mainAngular = angular.module('rhApp',['ngRoute', 'ngAnimate']);
+var mainAngular = angular.module('rhApp',['ngRoute','ngAnimate']);
  
 mainAngular.config(function ($routeProvider, $locationProvider) {
+    //$locationProvider.html5MOde(true); //Enable href routing without hashes
+    
     $routeProvider
         .when('/home',{
             templateUrl: './pages/home.html'
