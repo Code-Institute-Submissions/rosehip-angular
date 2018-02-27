@@ -1,6 +1,6 @@
-# Project Title
+# rosehip productions app
 
-One Paragraph of project description goes here
+rosehip productions needed an app to promote their events management and consultation company. This website offers information about their owner, breaks down a listing of their services, shows examples of the clients they have worked with and a contact page to allow future clients to contact the company.
 
 ## Getting Started
 
@@ -8,10 +8,13 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+The software listed below is not requried to use the rosehip app as they are loaded through CDN.  However, you can install them locally for faster loading.
 
 ```
-Give examples
+npm install jquery
+npm install popper
+npm install bootstrap
+
 ```
 
 ### Installing
@@ -34,7 +37,7 @@ End with an example of getting some data out of the system or using it for a lit
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+Product testing was run manually and can be found [here](https://docs.google.com/spreadsheets/d/18vqeqeFvVToHrCFkr4TTtSTixUJhG7vb8ipQ4wMm6U4/edit?usp=sharing) 
 
 ### Break down into end to end tests
 
