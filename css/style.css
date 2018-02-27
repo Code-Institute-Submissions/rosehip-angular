@@ -40,10 +40,6 @@ html, body {
 .no-padding {
 	padding: 0;
 }
-/*REVISIT!!!!!*/
-.navbar-padding{
-	padding-top: 102px;
-}
 
 /*Typography changes*/
 .quote-text {
@@ -103,8 +99,8 @@ html, body {
 .img-button {
 	-o-object-fit: cover;
 	   object-fit: cover;
-	-webkit-filter:opacity(.9);
-	        filter:opacity(.9);
+	-webkit-filter:opacity(.7);
+	        filter:opacity(.7);
 	border-radius: 0;
 	overflow: hidden;
 	width: 100%;
