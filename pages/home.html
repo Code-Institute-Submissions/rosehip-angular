@@ -49,7 +49,7 @@
                                 <p style="font-weight: 300;">Over her career she has worked with Disney, The Public Theater, W-Hotel, Marriott, AMC, SIFMA, and managed events in New York, Denver, San Diego, Orlando, and Miami.  Her background in theatrical and film production gives her events an edge while paying close care to all the logistical details.</p><br>
                                 <h3 class="text-center" style="color: #ffb6c1; font-weight: 600;">"She has put her heart and soul into every client event she has executed."</h3>
                                 <h4 class="text-center" style="font-family: 'Homemade Apple', cursive;">-Anna Sullivan</h4>
-                                <h5 class="text-center" style="font-weight: 300;">Senior Business Development Manager</h5>
+                                <h5 class="text-center" style="font-weight: 200;">Senior Business Development Manager</h5>
                             </div>
                         </div>
                     </div>
@@ -89,7 +89,7 @@
 <div id="contact" class="container-fluid">
     <div class="container-fluid align-items-center justify-content-center">
         <div class="row justify-content-center">
-            <h1 id="contact-us" class="text-center display-3 pink-bg" style="margin: 30px;color: black;">C O N T A C T</h1>
+            <h1 id="contact-us" class="text-center display-3 pink-bg" style="margin: 30px;color: black;font-weight: 200">C O N T A C T</h1>
         </div>
         <div class="row justify-content-center">
             <div class="col-sm-6">
@@ -125,7 +125,7 @@
                     </div>
                     <div class="form-group form-row">
                         <div class="col">
-                            <button type="submit" class="btn btn-primary" ng-disabled="myForm.$invalid">Submit</button>
+                            <button type="submit" class="btn btn-primary" ng-disabled="myForm.$invalid || myForm.$pristine">Submit</button>
                             <button type="reset" class="btn btn-primary" ng-click="myForm.$setPristine();myForm.$setUntouched();">Reset</button>
                             <span ng-show="myForm.$submitted">
                                 <medium style="color: green; display: block; text-align: center;">Thanks! I'll get back to you soon.</medium>
