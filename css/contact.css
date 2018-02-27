@@ -1,14 +1,16 @@
 #dynamic-body {
 	height: 100%;
 }
-/*input:invalid {
-	border: 3px solid red;
-}*/
+
 .contact-bg{
 	background: url("../img/contact-wallpaper.jpg") no-repeat center center fixed;
 	background-size: cover;
 	height: 100%;
 	object-fit: cover;
+}
+
+input.ng-invalid.ng-touched, textarea.ng-invalid.ng-touched {
+	border: 2px solid red;
 }
 
 @media screen and (max-width: 479.99px){
@@ -19,16 +21,3 @@
 	}
 }
 
-/*@media screen and (max-width: 767.99px){
-	.contact-bg{
-		padding-top: 0px;
-	}
-}*/
-
-input.ng-invalid.ng-touched, textarea.ng-invalid.ng-touched {
-	border: 2px solid red;
-}
-
-/*button[disabled="disabled"]{
-	cursor: not-allowed !important;
-}*/

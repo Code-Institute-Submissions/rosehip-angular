@@ -105,18 +105,6 @@ body {
   bottom: 40px;
 }
 
-.bottom-left {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-}
-
-.bottom-right {
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
-}
-
 img.hover-shadow {
   transition: 0.3s
 }
