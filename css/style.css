@@ -107,6 +107,13 @@ html, body {
 	height:100%;
 }
 
+.top-header-styling {
+  color: white;
+  font-weight: 600;
+  letter-spacing: 10px;
+  padding: 0 5px;
+}
+
 /*Id Specific*/
 #dynamic-body{
 	padding-top: 118px;
