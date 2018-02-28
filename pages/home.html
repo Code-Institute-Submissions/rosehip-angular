@@ -22,8 +22,17 @@
     </div>
     <div class="row align-items-center">
         <div class="col-12 align-items-center justify-content-center no-padding" style="padding: 10px 10px;">
-            <div class="text-center">
-                <button data-toggle="collapse" class="btn btn-primary" data-target="#collapsiblePortfolio">More About Marisa...</button>
+            <div class="text-center" style="font-size: 2em;color:#ffb6c1;">
+                <!--button data-toggle="collapse" class="btn btn-primary" data-target="#collapsiblePortfolio">More About Marisa...</button-->
+                <small>More about Marisa</small>
+                <div class="arrow">
+                    <a data-toggle="collapse" data-target="#collapsiblePortfolio" aria-expanded="false" aria-controls="collapsiblePortfolio">
+                        <span ng-click="toggle=!toggle">
+                          <span ng-show="toggle"><i class="fas fa-chevron-circle-up"></i></span>
+                          <span ng-hide="toggle"><i class="fas fa-chevron-circle-down"></i></span>
+                        </span>
+                    </a>
+                </div>
             </div>
             <div id="collapsiblePortfolio" class="collapse" style="margin-top: 20px;">
                 <div class="container-fluid align-items-center" style="height: 100%">

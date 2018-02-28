@@ -12,3 +12,4 @@ $('.dropdown-menu>a').on('click', function(){
 		$('.navbar-collapse').collapse('hide');
 	}
 });
+
