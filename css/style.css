@@ -74,6 +74,10 @@ html, body {
 .dropdown-item {
 	color: #ffb6c1;
 }
+/*.dropdown-menu > a:hover {
+	background-color: black;
+	color: white;
+}*/
 
 /*Custom Navbar toggler color and border*/
 .custom-toggler.navbar-toggler {
@@ -133,8 +137,8 @@ html, body {
 		-o-object-fit: cover;
 		   object-fit: cover;
 	}
-	/*.img-button {
-		height: 150px;
+	/*#navbarSupportedContent {
+		min-height: 100vh;
 	}*/
 }
 @media screen and (max-width: 575.99px){
