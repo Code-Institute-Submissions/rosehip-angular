@@ -3,35 +3,34 @@
 <div id="jess-marc">
   <div class="container-fluid align-items-center">
     <div class="row justify-content-center">
-      <!--h1 class="quote-text text-center display-3" style="color: white;">Jessica + Marc</h1-->
       <h1 class="text-center display-3 top-header-styling">JESSICA + MARC</h1>
     </div>
   </div>
   <div class="gallery container-fluid align-items-center" style="margin-top: 20px;">
     <div class="row align-items-center justify-content-center">
       <div class="col-6 col-sm-4 col-md-3">
-        <img src="./img/jess-marc/jm-1-sm.jpg" onclick="openModal();currentSlide(1)" class="img-fluid">
+        <img src="./img/jess-marc/jm-1-sm.jpg" onclick="openLightboxModal();currentImage(1)" class="img-fluid">
       </div>
       <div class="col-6 col-sm-4 col-md-3">
-        <img src="./img/jess-marc/jm-2-sm.jpg" onclick="openModal();currentSlide(2)" class="img-fluid">
+        <img src="./img/jess-marc/jm-2-sm.jpg" onclick="openLightboxModal();currentImage(2)" class="img-fluid">
       </div>
       <div class="col-6 col-sm-4 col-md-3">  
-        <img src="./img/jess-marc/jm-3-sm.jpg" onclick="openModal();currentSlide(3)" class="img-fluid">
+        <img src="./img/jess-marc/jm-3-sm.jpg" onclick="openLightboxModal();currentImage(3)" class="img-fluid">
       </div>
       <div class="col-6 col-sm-4 col-md-3"> 
-        <img src="./img/jess-marc/jm-4-sm.jpg" onclick="openModal();currentSlide(4)" class="img-fluid">
+        <img src="./img/jess-marc/jm-4-sm.jpg" onclick="openLightboxModal();currentImage(4)" class="img-fluid">
       </div>
       <div class="col-6 col-sm-4 col-md-3"> 
-        <img src="./img/jess-marc/jm-5-sm.jpg" onclick="openModal();currentSlide(5)" class="img-fluid">
+        <img src="./img/jess-marc/jm-5-sm.jpg" onclick="openLightboxModal();currentImage(5)" class="img-fluid">
       </div>
       <div class="col-6 col-sm-4 col-md-3"> 
-        <img src="./img/jess-marc/jm-6-sm.jpg" onclick="openModal();currentSlide(6)" class="img-fluid">
+        <img src="./img/jess-marc/jm-6-sm.jpg" onclick="openLightboxModal();currentImage(6)" class="img-fluid">
       </div>
       <div class="col-6 col-sm-4 col-md-3"> 
-        <img src="./img/jess-marc/jm-7-sm.jpg" onclick="openModal();currentSlide(7)" class="img-fluid">
+        <img src="./img/jess-marc/jm-7-sm.jpg" onclick="openLightboxModal();currentImage(7)" class="img-fluid">
       </div>
       <div class="col-6 col-sm-4 col-md-3"> 
-        <img src="./img/jess-marc/jm-8-sm.jpg" onclick="openModal();currentSlide(8)" class="img-fluid">
+        <img src="./img/jess-marc/jm-8-sm.jpg" onclick="openLightboxModal();currentImage(8)" class="img-fluid">
       </div>
     </div>
     <div class="row align-items-center justify-content-center">
@@ -40,44 +39,34 @@
   </div>
 
   <div id="myLightbox" class="lightbox justify-content-center">
-    <span class="close-button cursor" onclick="closeModal()">&times;</span>
+    <span class="close-button cursor" onclick="closeLightboxModal()">&times;</span>
     <div class="lightbox-content justify-content-center align-items-center">
-      <a class="prev" style="color:#ffb6c1" onclick="plusSlides(-1)">&#10094;</a> 
-      <a class="next" style="color:#ffb6c1;" onclick="plusSlides(1)">&#10095;</a>
-      <!--a class="prev" style="color:#ffb6c1;" onclick="plusSlides(-1)"><i class="fas fa-chevron-circle-left"></i></a> 
-      <a class="next" style="color:#ffb6c1;" onclick="plusSlides(1)"><i class="fas fa-chevron-circle-right"></i></a--> 
-      <div class="mySlides text-center">
+      <a class="prev" style="color:#ffb6c1" onclick="jumpImages(-1)">&#10094;</a> 
+      <a class="next" style="color:#ffb6c1;" onclick="jumpImages(1)">&#10095;</a>
+      <div class="myImages text-center">
         <img class="img-fluid" src="./img/jess-marc/jm-1.jpg" alt="All the girls are here">   
       </div>
-      <div class="mySlides text-center">
+      <div class="myImages text-center">
         <img class="img-fluid" src="./img/jess-marc/jm-2.jpg" alt="That DRESS!">
       </div>
-      <div class="mySlides text-center">
+      <div class="myImages text-center">
         <img class="img-fluid" src="./img/jess-marc/jm-3.jpg" alt="What an entrance!">
       </div>
-      <div class="mySlides text-center">
+      <div class="myImages text-center">
         <img class="img-fluid" src="./img/jess-marc/jm-4.jpg" alt="Looking GOOOOD!">
       </div>
-      <div class="mySlides text-center">
+      <div class="myImages text-center">
         <img class="img-fluid" src="./img/jess-marc/jm-5.jpg" alt="Entourage: Season 4">
       </div>
-      <div class="mySlides text-center">
+      <div class="myImages text-center">
         <img class="img-fluid" src="./img/jess-marc/jm-6.jpg" alt="Just takin a walk.">
       </div>
-      <div class="mySlides text-center">
+      <div class="myImages text-center">
         <img class="img-fluid" src="./img/jess-marc/jm-7.jpg" alt="Sunset dreams">
       </div>
-      <div class="mySlides text-center">
+      <div class="myImages text-center">
         <img class="img-fluid" src="./img/jess-marc/jm-8.jpg" alt="Sealed with a kiss.">
       </div>
-      <!--div id="imgCaption" class="text-center" style="padding-top: 5px;"></div-->
-      
-      <!--div class="caption-container">
-          <p id="imgCaption" style="float:left;"></p>
-          <p id="imgCount" style="float:right;"></p>
-      </div-->
-    </div>
-    <!--div style="clear:both;"></div-->
-     
+    </div>     
   </div>
 </div>

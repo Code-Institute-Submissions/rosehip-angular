@@ -13,3 +13,22 @@ $('.dropdown-menu>a').on('click', function(){
 	}
 });
 
+/*listener for left/right key*/
+window.onkeydown = function(e){
+	var key = e.keyCode ? e.keyCode : e.which;
+
+	//left key
+	if (key == 37){
+		jumpImages(-1);
+	}
+	//right key
+	else if (key == 39){
+		jumpImages(1);
+	}
+	//esc key
+	else if (key == 27){
+		closeLightboxModal();
+	}
+	else{}
+}
+

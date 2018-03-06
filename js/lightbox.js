@@ -1,43 +1,49 @@
-function openModal(){
+function openLightboxModal(){
   document.getElementById('myLightbox').style.display = "block";
   document.getElementById('myLightbox').style.zIndex = 2000;
 }
 
-function closeModal(){
+function closeLightboxModal(){
   document.getElementById('myLightbox').style.display = "none";
   document.getElementById('myLightbox').style.zIndex = -1;
 }
 
-var slideIndex = 1;
-showSlides(slideIndex);
+var imgIndex = 1;
+showImages(imgIndex);
 
-function plusSlides(n){
-  showSlides(slideIndex+=n);
+function jumpImages(n){
+  showImages(imgIndex+=n);
 }
 
-function currentSlide(n){
-  showSlides(slideIndex=n);
+function currentImage(n){
+  showImages(imgIndex=n);
 }
 
-function showSlides(n){
+function showImages(n){
   var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var captionText = document.getElementById("imgCaption");
-  var imgCountText = document.getElementById("imgCount");
+  var imgs = document.getElementsByClassName("myImages");
 
-  if (n > slides.length) {
-    slideIndex = 1;
+  //reached end of slides, go back to 1
+  if (n > imgs.length) {
+    imgIndex = 1;
   }
+  //reached beginning of slides, go back to end
   if (n < 1){
-    slideIndex = slides.length;
+    imgIndex = imgs.length;
   }
-  for (i=0; i<slides.length;i++){
-    slides[i].style.display = "none";
+  
+  //hide images
+  for (i=0; i<imgs.length;i++){
+    imgs[i].style.display = "none";
   }
 
-  slides[slideIndex-1].style.display = "block";
+  //show THIS image
+  imgs[imgIndex-1].style.display = "block";
   
-  /*get caption text from alt attribute of image*/
-  captionText.innerHTML = slides[slideIndex-1].getElementsByTagName("img")[0].alt;
-  /*imgCountText.innerHTML = slideIndex + " of " + slides.length;*/
 }
+
+/*document.getElementById('myLightbox').addEventListener("keydown",processKey);
+
+function processKey() {
+  console.log("keydown");
+}*/

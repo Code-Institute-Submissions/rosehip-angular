@@ -52,11 +52,11 @@ body {
   cursor: pointer;
 }
 
-.mySlides {
+.myImages {
   display: none;
 }
 
-.mySlides img {
+.myImages img {
   max-height: 100vh;
 }
 
@@ -88,31 +88,11 @@ body {
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
   /*background-color: rgba(255, 182, 193, 1);*/
   /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8);*/
 }
-
-.caption-container {
-  /*text-align: left;*/
-  background-color: red;
-  /*padding-top: 10px;*/
-  /*padding-bottom: 5px;*/
-  /*color: white*/;
-  /*bottom: 80vh;*/
-  position: relative;
-  bottom: 40px;
-}
-
-/*img.hover-shadow {
-  transition: 0.3s
-}
-
-.hover-shadow:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
-}*/
 
 .gallery img {
   width: 100%;

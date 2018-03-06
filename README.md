@@ -2,36 +2,8 @@
 
 rosehip productions needed an app to promote their events management and consultation company. This website offers information about their owner, breaks down a listing of their services, shows examples of the clients they have worked with and a contact page to allow future clients to contact the company.
 
-## Getting Started
-...
-
-### Prerequisites
-
-The software listed below is not requried to use the rosehip app as they are loaded through CDN.  However, you can install them locally for faster loading.
-
-```
-npm install jquery
-npm install popper
-npm install bootstrap
-npm install angular
-
-```
-
-### Installing
-
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
+## Design Choices
+* [Hero Image](https://marc-marquez.github.io/rosehip-angular/#/home) - Client preferred the "just hands" [photo](https://github.com/marc-marquez/rosehip-angular/blob/master/img/KJWedFL-201-1920-sm.jpg) when in mobile view (< 576px).
 
 ## Running the tests
 
@@ -56,10 +28,6 @@ Forms were tested for:
 * Valid and invalid input (specifically email address format)
 * Pristine, untouched, touched, unmodifed, modified, invalid, and valid states.
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
 ## Built With
 
 * [jQuery 3.2.1](http://code.jquery.com/) - Prerequisite for Bootstrap (CDN)
@@ -69,12 +37,9 @@ Add additional notes about how to deploy this on a live system
 * [FontAwesome 5.0.7](https://fontawesome.com/) - Brand icons and chevron buttons (CSS)
 * [Google Fonts](fonts.google.com) - Homemade Apple, Raleway, and Special Elite Fonts (CSS)
 
-## Contributing
-
 ## Versioning
 
-* [Original Version](https://github.com/marc-marquez/rosehip_productions_website) - This was the repo for original project.
-* [Converted using AngularJS](https://github.com/marc-marquez/rosehip-angular) - 2/16/18 - Moved to new repo to use AngularJS for routing.
+* [Original Version](https://github.com/marc-marquez/rosehip-angular)
 
 ## Authors
 
