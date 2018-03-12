@@ -1,7 +1,6 @@
 /*Element defaults*/
 html, body {
 	background-color: #000;
-	/*background: url("../img/contact-wallpaper.jpg") no-repeat center center fixed;*/
 	color: #fff;
 	font-family: 'Raleway', sans-serif;
 	width: 100%;
@@ -52,13 +51,6 @@ html, body {
     font-family: 'Homemade Apple', cursive;
     max-width: 700px;
 }
-.underline-heading:hover{
-	text-decoration: underline;
-	-webkit-text-decoration-color: #ffb6c1;
-	        text-decoration-color: #ffb6c1; 
-}.gravitas-one {
-	font-family: 'Gravitas One', cursive;	
-}
 
 /*Navbar*/
 .nav-link {
@@ -80,13 +72,13 @@ html, body {
 }*/
 
 /*Custom Navbar toggler color and border*/
-.custom-toggler.navbar-toggler {
+/*.custom-toggler.navbar-toggler {
     border-color: rgb(255,182,193);
     border: none;
-}
-.custom-toggler .navbar-toggler-icon {
+}*/
+/*.custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,182,193, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
+}*/
 .navbar-brand-img{
 	width: 200px;
 }
@@ -99,7 +91,7 @@ html, body {
 	font-family: 'Raleway', sans-serif;
 }
 
-/*Homepage section button/pics*/
+/*Homepage section button and pics*/
 .img-button {
 	-o-object-fit: cover;
 	   object-fit: cover;
@@ -118,15 +110,14 @@ html, body {
   padding: 0 5px;
 }
 
-/*Id Specific*/
-#dynamic-body{
-	padding-top: 118px;
-}
-#about{
-}
 .homeimage {
 	-webkit-filter: opacity(.55);
 	filter: opacity(.55);
+}
+
+/*Id Specific*/
+#dynamic-body{
+	padding-top: 118px;
 }
 
 /*responsive screen*/
@@ -137,9 +128,6 @@ html, body {
 		-o-object-fit: cover;
 		   object-fit: cover;
 	}
-	/*#navbarSupportedContent {
-		min-height: 100vh;
-	}*/
 }
 @media screen and (max-width: 575.99px){
 	#about {
@@ -149,21 +137,11 @@ html, body {
 	.img-button {
 		height: 150px;
 	}
-	/*.profile-pic {
-		margin: 60px;
-	}*/
 }
 @media screen and (max-width: 767.99px){
 	.navbar-brand-img {
 		width: 125px;
 	}
-	/*.navbar-brand {
-		position: absolute;
-		width: 100%;
-		left: 0;
-		text-align: center;
-		margin: 0 auto;
-	}*/
 	.navbar-toggler {
 		padding: 10px;
 	}
@@ -171,7 +149,7 @@ html, body {
 		max-width: 450px;
 	}
 	.profile-pic {
-		border: solid 4px #CCC;
+		border: solid 4px #ccc;
 		-moz-box-shadow: 2px 2px 5px #999;
     	-webkit-box-shadow: 2px 2px 5px #999;
         box-shadow: 2px 2px 5px #999;
@@ -188,37 +166,4 @@ html, body {
 		font-size: 1.5em;
 	}
 }
-
-/****Animations for Dynamic Body******/
-/*#dynamic-body.ng-enter{
-    transform: translateX(-500px);
-    opacity: 0;
- 
-    -webkit-transition: all 0.5s cubic-bezier(1,.01,0,.99);
-    -moz-transition: all 0.5s cubic-bezier(1,.01,0,.99);
-    -ms-transition: all 0.5s cubic-bezier(1,.01,0,.99);
-    -o-transition: all 0.5s cubic-bezier(1,.01,0,.99);
-    transition: all 0.5s cubic-bezier(1,.01,0,.99);
-}
- 
-#dynamic-body.ng-enter-active{
-    transform: translateX(0px);
-    opacity: 1;
-}
- 
-#dynamic-body.ng-leave{
-    transform: translateX(0);
-    opacity: 1;
- 
-    -webkit-transition: all 0.5s cubic-bezier(1,.01,0,.99);
-    -moz-transition: all 0.5s cubic-bezier(1,.01,0,.99);
-    -ms-transition: all 0.5s cubic-bezier(1,.01,0,.99);
-    -o-transition: all 0.5s cubic-bezier(1,.01,0,.99);
-    transition: all 0.5s cubic-bezier(1,.01,0,.99);
-}
- 
-#dynamic-body.ng-leave-active{
-    transform: translateX(500px);
-    opacity: 0;
-}*/
 

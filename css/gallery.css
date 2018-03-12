@@ -8,7 +8,7 @@ body {
   box-sizing: border-box;
 }
 
-/* The Modal (background) */
+/* Lightbox Modal (background) */
 .lightbox {
   display: none;
   position: fixed;
@@ -21,7 +21,7 @@ body {
   background: rgba(0,0,0,.85);
 }
 
-/* Modal Content */
+/* Lightbox Modal Content */
 .lightbox-content {
   position: relative;
   background: rgba(0,0,0,0);
@@ -88,6 +88,8 @@ body {
   border-radius: 3px 0 0 3px;
 }
 
+
+/*may use later*/
 .prev:hover,
 .next:hover {
   /*background-color: rgba(255, 182, 193, 1);*/

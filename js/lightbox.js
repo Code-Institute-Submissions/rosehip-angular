@@ -8,20 +8,17 @@ function closeLightboxModal(){
   document.getElementById('myLightbox').style.zIndex = -1;
 }
 
-var imgIndex = 1;
-showImages(imgIndex);
-
 function jumpImages(n){
-  showImages(imgIndex+=n);
+  showImage(imgIndex+=n);
 }
 
 function currentImage(n){
-  showImages(imgIndex=n);
+  showImage(imgIndex=n);
 }
 
-function showImages(n){
+function showImage(n){
   var i;
-  var imgs = document.getElementsByClassName("myImages");
+  var imgs = document.getElementsByClassName("myImages"); //get all images in group
 
   //reached end of slides, go back to 1
   if (n > imgs.length) {
@@ -39,11 +36,7 @@ function showImages(n){
 
   //show THIS image
   imgs[imgIndex-1].style.display = "block";
-  
 }
 
-/*document.getElementById('myLightbox').addEventListener("keydown",processKey);
-
-function processKey() {
-  console.log("keydown");
-}*/
+var imgIndex = 1;
+showImage(imgIndex);
