@@ -45,10 +45,6 @@ Forms were tested for:
 
 * **Marc Marquez** - *Initial work* - [Github Page](https://github.com/marc-marquez/)
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
 ## Acknowledgments
 
 Special Thanks to:
