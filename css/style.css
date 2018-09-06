@@ -111,7 +111,7 @@ html, body {
 /*responsive screen*/
 @media screen and (max-width: 479.99px){
 	.homeimage {
-		content:url("../img/KJWedFL-201-1920-sm.jpg");
+		content:url("../img/home/KJWedFL-201-1920-sm.jpg");
 		height: 90vh;
 		-o-object-fit: cover;
 		   object-fit: cover;
