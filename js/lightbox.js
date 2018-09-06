@@ -35,7 +35,7 @@ function showImage(n){
   }
 
   //show THIS image
-  if (imgIndex){
+  if (imgs[imgIndex-1]){
     imgs[imgIndex-1].style.display = "block";
   }
 }
