@@ -29,8 +29,6 @@ body {
   padding: 0;
   max-height: 100vh;
   max-width: 85vw;
-  /*max-width: fit-content;*/ /*puts arrows inside image*/
-  /*center box*/
   top:50%;
   transform: translateY(-50%);
 }
@@ -86,14 +84,6 @@ body {
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
-}
-
-
-/*may use later*/
-.prev:hover,
-.next:hover {
-  /*background-color: rgba(255, 182, 193, 1);*/
-  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8);*/
 }
 
 .gallery img {
