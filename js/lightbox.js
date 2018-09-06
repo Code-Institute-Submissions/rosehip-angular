@@ -35,7 +35,9 @@ function showImage(n){
   }
 
   //show THIS image
-  imgs[imgIndex-1].style.display = "block";
+  if (imgIndex){
+    imgs[imgIndex-1].style.display = "block";
+  }
 }
 
 var imgIndex = 1;
