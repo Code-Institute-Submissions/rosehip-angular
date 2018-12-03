@@ -15,9 +15,12 @@ I chose black are the primary background color because I wanted the primary colo
 
 I chose the "Raleway" font because I thought it presented the contemporary elegence I was looking for. The "Special Elite" font was chosen for the quote because I wanted to embed in the client how good the company is like the way a typewriter embeds on a piece of paper. The "Homemade Apple" font was chosen to give a personal feeling. What's more personal than a signature? It's unique and the person that signs their name endorses what they are saying.
 
+### Design Choices
+- [Hero Image](https://marc-marquez.github.io/rosehip-angular/#/home) - Client preferred the "just hands" [photo](https://github.com/marc-marquez/rosehip-angular/blob/master/img/KJWedFL-201-1920-sm.jpg) when in mobile view (< 576px).
+
 ### USER STORIES
 
-####As a user:
+#### As a user:
 - I want to view the website so that I can get a better userstanding of what this company represents.
 - I want to view the home page so that I can form a first impression of whether this event company is right for me.
 - I want to view the about page so that I can get some background on the company and owener.
@@ -30,9 +33,7 @@ I chose the "Raleway" font because I thought it presented the contemporary elege
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
-
-- Home Page: Main page for the company. Should immediately illicit a feeling of contemporary elegence and trustworthiness.
+- Home Page: Main page for the company. Should immediately elicit a feeling of contemporary elegence and trustworthiness.
 - About Page: The about page gives background information about the Founder/Owner and what makes her qualified to run the potential client's event.
 - Event Services Page: The event services page provides a brief description of each of the services povided by the company.
 - Portfolio Pages: The portfolio pages provide examples of events coordinated by the company. These should provide evidence that the skill level exists to run small or large events.
@@ -57,8 +58,6 @@ In this section, you should go over the different parts of your project, and des
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
 - [jQuery](http://code.jquery.com/) 
 	- The project uses **jQuery** to simplify DOM manipulation.
 - [PopperJS](https://popper.js.org/)
@@ -71,7 +70,6 @@ In this section, you should mention all of the languages, frameworks, libraries,
 	- The project uses **Font Awesome** for the graphical icons.
 - [Google Fonts](fonts.google.com)
 	- The project uses **Google Fonts** for web-friendly readable fonts.    
-
 
 ## Testing
 
@@ -112,6 +110,7 @@ The project is hosted on Github Pages and is deployed through Github.
 - [Miriam Suzanne](https://css-tricks.com/fun-viewport-units/) for the responsive font sizes CSS.
 
 ### Media
+
 - The photos used in this site were obtained from Rosehip Productions.
 
 ### Acknowledgements
