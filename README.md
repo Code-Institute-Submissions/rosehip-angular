@@ -4,16 +4,16 @@ rosehip productions needed a website to promote their events management and cons
  
 ## UX
  
-First impressions are everything and I wanted to create a website for rosehip productions that showed off two of their best attributes: contemporary elegence and trust. Any potential client should think that when they view the website. Clients should come away from viewing that website that:
+First impressions are everything and I wanted to create a website for rosehip productions that showed off two of their best attributes: contemporary elegence and trust. Any potential client should think that when they view the website. Clients should come away thinking:
 
 1. I can trust this company/person to plan and execute my event.
 2. I can work well with this company/person because I can visualize my event based on the examples I see on this website.
 
 Much of the design focused around the rosehip logo. I picked colors, fonts, and images that I thought complemented the logo well. 
 
-I chose black are the primary background color because I wanted the primary colors of the logo (pink and gold) to pop off the page. Black also helped give that contemporary elegence feeling.
+I chose black as the primary background color because I wanted the primary colors of the logo (pink and gold) to pop off the page. Black also helped give that contemporary elegence feeling.
 
-I chose the "Raleway" font because I thought it presented the contemporary elegence I was looking for. The "Special Elite" font was chosen for the quote because I wanted to embed in the client how good the company is like the way a typewriter embeds on a piece of paper. The "Homemade Apple" font was chosen to give a personal feeling. What's more personal than a signature? It's unique and the person that signs their name endorses what they are saying.
+I chose the "Raleway" font because I thought it presented the contemporary elegence I was looking for. The "Special Elite" font was chosen for the quote because I wanted to embed in the client how good the company is just like the way a typewriter embeds on a piece of paper. The "Homemade Apple" font was chosen to give a personal feeling. What's more personal than a signature? It's unique and the person that signs their name endorses what they are saying.
 
 ### Design Choices
 - [Hero Image](https://marc-marquez.github.io/rosehip-angular/#/home) - Client preferred the "just hands" [photo](https://github.com/marc-marquez/rosehip-angular/blob/master/img/KJWedFL-201-1920-sm.jpg) when in mobile view (< 576px).
@@ -22,19 +22,19 @@ I chose the "Raleway" font because I thought it presented the contemporary elege
 
 #### As a user:
 - I want to view the website so that I can get a better userstanding of what this company represents.
-- I want to view the home page so that I can form a first impression of whether this event company is right for me.
-- I want to view the about page so that I can get some background on the company and owener.
+- I want to view the home page so that I can form a first impression of whether this company is right for me.
+- I want to view the about page so that I can get some background information on the company and owner.
 - I want to view the services page so that I can gain an understading of what types of services the company offers.
 - I want to view the portfolio page so that I can see examples of events done by the company and help me visualize how my event will look.
-- I want to view the contact page so that I can immediately communicate with the company and tell them I am interested.
+- I want to view the contact page so that I can immediately communicate with the company and tell them my contact information and what type of event I want to do.
 - I want to click on the instagram link so that I can see other examples of the company's events.
-- I want to click on the email link so that I can communicate with the company.
+- I want to click on the email link so that I can email the company directly.
 - I want to click on the facebook link so that I can see more information about the company.
 
 ## Features
 
 - Home Page: Main page for the company. Should immediately elicit a feeling of contemporary elegence and trustworthiness.
-- About Page: The about page gives background information about the Founder/Owner and what makes her qualified to run the potential client's event.
+- About Page: The about page gives background information about the owner and what makes her qualified to run the potential client's event.
 - Event Services Page: The event services page provides a brief description of each of the services povided by the company.
 - Portfolio Pages: The portfolio pages provide examples of events coordinated by the company. These should provide evidence that the skill level exists to run small or large events.
 - Contact Page: The contact page provides a form that the potential client can fill out and submit to initiate contact with the company.
@@ -66,7 +66,7 @@ I chose the "Raleway" font because I thought it presented the contemporary elege
 	- The project uses **Bootstrap** to create a responsive and mobile-first thinking website.
 - [AngularJS](https://angular.io/)
 	- The project uses **AngularJS** to do page routing.
-- [FontAwesome 5.0.7](https://fontawesome.com/)
+- [FontAwesome](https://fontawesome.com/)
 	- The project uses **Font Awesome** for the graphical icons.
 - [Google Fonts](fonts.google.com)
 	- The project uses **Google Fonts** for web-friendly readable fonts.    
@@ -101,7 +101,7 @@ The project is hosted on Github Pages and is deployed through Github.
 |                                 | Development          | Production   |
 | ------------                    | -----------          | ----------   |
 | Web Host                        | Local                | Github Pages |
-| Site URL                        | localhost            | https://marc-marquez.github.io/rosehip-angular/#/home |
+| Site URL                        | localhost            | https://marc-marquez.github.io/rosehip-angular/ |
 
 ## Credits
 
