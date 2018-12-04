@@ -52,10 +52,6 @@ I chose the "Raleway" font because I thought it presented the contemporary elege
 - Email: Allows users to email company by having them click on the email icon. Clicking on icon should open email client.
 - Facebook: Allows users to view the company Facebook page by having them click on the facebook [icon](https://www.facebook.com/RoseHipProductions).
 
-
-### Features Left to Implement
-- Film Services: Allows users to view the "Film Services" page. These services haven't been rolled out yet by the company so the link has been disabled.
-
 ## Technologies Used
 
 - [jQuery](http://code.jquery.com/) 
