@@ -116,3 +116,11 @@ The project is hosted on Github Pages and is deployed through Github.
 ### Acknowledgements
 
 - I received inspiration for this project from my sister.
+
+## Authors
+
+- **Marc Marquez** - [Github Page](https://github.com/marc-marquez/)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
