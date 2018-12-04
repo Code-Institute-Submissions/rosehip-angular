@@ -1,6 +1,6 @@
 # Rosehip Productions (https://marc-marquez.github.io/rosehip-angular/)
 
-rosehip productions needed a website to promote their events management and consultation company. This website offers information about their owner, breaks down a listing of their services, shows examples of the clients they have worked with and a contact page to allow future clients to contact the company.
+Rosehip Productions needed a website to promote their events management and consultation company. This website offers information about their owner, breaks down a listing of their services, shows examples of the clients they have worked with and a contact page to allow future clients to contact the company.
  
 ## UX
  
