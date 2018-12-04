@@ -4,12 +4,12 @@ Rosehip Productions needed a website to promote their events management and cons
  
 ## UX
  
-First impressions are everything and I wanted to create a website for rosehip productions that showed off two of their best attributes: contemporary elegence and trust. Any potential client should think that when they view the website. Clients should come away thinking:
+First impressions are everything and I wanted to create a website for Rosehip Productions that showed off two of their best attributes: contemporary elegence and trust. Any potential client should think that when they view the website. Clients should come away thinking:
 
 1. I can trust this company/person to plan and execute my event.
 2. I can work well with this company/person because I can visualize my event based on the examples I see on this website.
 
-Much of the design focused around the rosehip logo. I picked colors, fonts, and images that I thought complemented the logo well. 
+Much of the design focused around the Rosehip logo. I picked colors, fonts, and images that I thought complemented the logo well. 
 
 I chose black as the primary background color because I wanted the primary colors of the logo (pink and gold) to pop off the page. Black also helped give that contemporary elegence feeling.
 
